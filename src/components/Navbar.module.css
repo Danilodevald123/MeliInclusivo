@@ -1,0 +1,45 @@
+.navbar {
+    display: grid;
+    grid-template-columns: 20% 45% 35%;
+    grid-template-rows: 60px 40px;
+    gap: 5px 10px;
+    width: 100%;
+    height: 100px; /* Ajusta esto según sea necesario */
+  }
+  
+  .left {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-color: lightblue; /* Para visualización */
+  }
+  
+  .center {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-color: lightgreen; /* Para visualización */
+  }
+  
+  .right {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    background-color: lightcoral; /* Para visualización */
+  }
+  
+  .bottomLeft {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background-color: lightcyan; /* Para visualización */
+  }
+  
+  .bottomCenter {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: lightgoldenrodyellow; /* Para visualización */
+  }
+  
+  .bottomRight {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    background-color: lightpink; /* Para visualización */
+  }
+  
